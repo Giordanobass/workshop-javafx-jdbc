@@ -156,7 +156,7 @@ public class DepartmentListController implements Initializable, DataChangeListen
 			}
 		});
 	}
-
+//REMOVER
 	private void removeEntity(Department obj) {
 		Optional<ButtonType> result = Alerts.showConfirmation("Confirmation", "Are you sure to delete?");
 
