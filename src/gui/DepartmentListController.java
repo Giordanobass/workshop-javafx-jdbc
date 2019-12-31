@@ -167,8 +167,7 @@ public class DepartmentListController implements Initializable, DataChangeListen
 			try {
 				service.remove(obj);
 				updateTableView();
-			}
-			catch (DbIntegrityException e) {
+			} catch (DbIntegrityException e) {
 				Alerts.showAlert("Error removing object", null, e.getMessage(), AlertType.ERROR);
 			}
 		}
