@@ -1,1 +1,2 @@
 --module-path E:\Downloads\libs-java\java.fx\javafx-sdk-11.0.2\lib --add-modules=javafx.fxml,javafx.controls
+C:\Program Files\SceneBuilder\SceneBuilder.exe
